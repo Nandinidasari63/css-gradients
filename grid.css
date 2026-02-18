@@ -5,9 +5,16 @@
   padding: 30px;
   gap: 40px;
 }
-.card{
+.gradient{
   width: 200px;
   height:200px;
   background-color:gray;
-
+}
+.card{
+  border:1px solid #eee;
+}
+ .title{
+ text-align: center;
+ padding: 5px 0px;
+ width: 200px;
 }

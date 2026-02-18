@@ -4,7 +4,59 @@
 <head>
   <link rel="stylesheet" href="grid.css">
   <link rel="stylesheet" href="nav.css">
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    :root {
+      --sheen: linear-gradient(to left, transparent, rgba(255, 255, 255, 0.8))
+    }
+
+    #g-1 {
+      --g1: linear-gradient(45deg, red, cyan);
+    }
+
+    #g-2 {
+      --g1: linear-gradient(200deg, #90D5FF, #40B7FF, #E0F3FF);
+    }
+
+    #g-3 {
+      --g1: linear-gradient(45deg, yellow, green, yellow);
+    }
+
+    #g-4 {
+      --g1: repeating-linear-gradient(blue, red 4px);
+    }
+
+    #g-5 {
+      --g1: repeating-linear-gradient(90deg, orange 0px, orange 8px, white 15px, white 27px, green 40px);
+    }
+
+    #g-6 {
+      --g1: repeating-linear-gradient(orange 0px, orange 8px, white 15px, white 27px, green 40px);
+
+    }
+
+    #g-7 {
+      --g1: linear-gradient(to right bottom, #D6E9F9, #85B9EB, #1A5CA0, #0F3A66);
+    }
+
+    #g-8 {
+      --g1: linear-gradient(45deg, #80D926, rgba(73, 64, 111, 0.623) 50%, #26D980);
+    }
+
+    .gradient {
+      background-image: var(--g1);
+    }
+
+    .title {
+      background: var(--sheen), var(--g1);
+    }
+  </style>
 </head>
+
 
 <body>
   <header class="header">
@@ -28,109 +80,109 @@
     </a>
   </nav>
   <div class="container">
-    <div class="card">
+    <div class="card" id="g-1">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient1</div>
+    </div>
+    <div class="card" id="g-2">
+      <div class="gradient"></div>
+      <div class="title">gradient2</div>
+    </div>
+    <div class="card" id="g-3">
+      <div class="gradient"></div>
+      <div class="title">gradient</div>
+    </div>
+    <div class="card" id="g-4">
+      <div class="gradient"></div>
+      <div class="title">gradient</div>
+    </div>
+    <div class="card" id="g-5">
+      <div class="gradient"></div>
+      <div class="title">gradient</div>
+    </div>
+    <div class="card" id="g-6">
+      <div class="gradient"></div>
+      <div class="title">gradient</div>
+    </div>
+    <div class="card" id="g-7">
+      <div class="gradient"></div>
+      <div class="title">gradient</div>
+    </div>
+    <div class="card" id="g-8">
+      <div class="gradient"></div>
+      <div class="title">gradient8</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
     <div class="card">
       <div class="gradient"></div>
-      <div class="title"></div>
-    </div>
-    <div class="card">
-      <div class="gradient"></div>
-      <div class="title"></div>
-    </div>
-    <div class="card">
-      <div class="gradient"></div>
-      <div class="title"></div>
-    </div>
-    <div class="card">
-      <div class="gradient"></div>
-      <div class="title"></div>
-    </div>
-    <div class="card">
-      <div class="gradient"></div>
-      <div class="title"></div>
-    </div>
-    <div class="card">
-      <div class="gradient"></div>
-      <div class="title"></div>
-    </div>
-    <div class="card">
-      <div class="gradient"></div>
-      <div class="title"></div>
-    </div>
-    <div class="card">
-      <div class="gradient"></div>
-      <div class="title"></div>
+      <div class="title">gradient</div>
     </div>
 
   </div>
